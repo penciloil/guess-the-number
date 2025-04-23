@@ -1,30 +1,18 @@
-# Guess The Number (終極密碼)
+# 猜數字遊戲（終極密碼）
 
-A simple and fun number-guessing game, also known as "終極密碼". Players take turns guessing a secret number within a specific range until the correct number is found.
+這是一個用 Python 製作的簡單有趣的猜數字遊戲，又叫「終極密碼」。玩家選擇難度後，嘗試猜出 1 到 100 之間的隨機數字，看看自己能不能猜中！
 
-## How to Play
+## 🎮 線上遊玩
 
-1. The game selects a secret number within a defined range (e.g., 1 to 100).
-2. Players take turns guessing a number.
-3. After each guess:
-   - If the guess is incorrect, the range is updated:
-     - If the guess is too high, the upper limit is reduced.
-     - If the guess is too low, the lower limit is increased.
-   - If the guess is correct, the game ends, and the player wins.
-4. Repeat the game for more fun!
+👉 [點我直接玩（Replit 開啟）](https://replit.com/@2gxqh2mrhz/Guess-the-number?v=1)
 
-## Features
+**不需要安裝！點開就能玩！**
 
-- Interactive gameplay for multiple players.
-- Adjustable range for the secret number.
-- Simple logic and easy-to-understand rules.
+## 📌 遊戲特色
 
-## Getting Started
+- 提供難度選擇：Easy（10 次）或 Hard（5 次）
+- 每次猜完會提示你猜得太大或太小
+- 猜中數字或用完次數即結束遊戲
+- 互動式指令介面（CLI），簡單好上手
 
-### Prerequisites
-
-- A Python interpreter (if implemented in Python) or any platform-specific requirements based on the programming language used.
-
-### Installation
-
-1. Clone the repository:
+---
